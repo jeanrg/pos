@@ -71,8 +71,6 @@ class ModeloClientes{
 			$paginas= $totalClientes/$per_page;
 			//redondear la cantidad hacia arriba
 			$paginas= ceil($paginas);
-
-			return Modelo::todo($query[0],new DatosProductos());
 			
 			/*=====  End of PAGINACION  ======*/		
 
